@@ -11,7 +11,7 @@ A tool for running all your recon tools in Docker without remembering Docker com
 
 [Installing docker](https://docs.docker.com/get-docker/)
 
-Installing Docker for Python SDK
+Installing Docker for Python SDK:
 
 ```pip install -r requirements.txt```
 

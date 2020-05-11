@@ -2,18 +2,28 @@
 
 A tool for running all your recon tools in Docker without remembering Docker commands
 
+This tool is essentially a wrapper for Docker to run offensive security tools. The tool is very small because all it needs to run is one Python file (ultra_recon.py) and the Dockerfiles needed to build the tool images (some tools also contain files that will be added to the image). Many tools can be run as long as ```client.containers.run``` has the correct configuration
+
 [![Python 3.7](https://img.shields.io/badge/python-3.7-FADA5E.svg?logo=python)](https://www.python.org/) 
-[![Docker](https://img.shields.io/badge/docker-requires-0db7ed.svg?logo=docker)](https://www.docker.com/) [![PEP8](https://img.shields.io/badge/code%20style-pep8-red.svg)](https://www.python.org/dev/peps/pep-0008/) [![License](https://img.shields.io/badge/license-GPL3-lightgrey.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![Twitter](https://img.shields.io/badge/twitter-sneakerhax-38A1F3?logo=twitter)](https://twitter.com/sneakerhax) [![Discord](https://img.shields.io/badge/discord-sneakerhax-7289DA?logo=discord)](https://discordapp.com/invite/wpxpYM3)
+[![Docker](https://img.shields.io/badge/docker-required-0db7ed.svg?logo=docker)](https://www.docker.com/) [![PEP8](https://img.shields.io/badge/code%20style-pep8-red.svg)](https://www.python.org/dev/peps/pep-0008/) [![License](https://img.shields.io/badge/license-GPL3-lightgrey.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![Twitter](https://img.shields.io/badge/twitter-sneakerhax-38A1F3?logo=twitter)](https://twitter.com/sneakerhax) [![Discord](https://img.shields.io/badge/discord-sneakerhax-7289DA?logo=discord)](https://discordapp.com/invite/wpxpYM3)
 
 ![alt text](.img/Ultra_Sun_Ultra_Moon_Ultra_Recon_Squad.png)
 
 ## Installation
 
-[Installing docker](https://docs.docker.com/get-docker/)
+Install Docker on your local system:
+* <https://docs.docker.com/get-docker/>
 
-Installing Docker for Python SDK:
+Install Docker SDK for Python:
 
 ```pip install -r requirements.txt```
+
+Keys should be added to config.conf (Example for Censys)
+```
+[censys.io]
+censys_API_ID = <censys_API_ID>
+censys_secret = <censys_secret>
+```
 
 ## Usage
 

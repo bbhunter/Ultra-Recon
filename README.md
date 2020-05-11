@@ -19,7 +19,7 @@ Installing Docker for Python SDK
 ## Current images
 
 * Nmap
-* PyDNSRecon (Required Censys API ID + Secret)
+* PyDNSRecon (Requires Censys API ID + Secret)
 
 ## References
 

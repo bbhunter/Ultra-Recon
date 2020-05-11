@@ -9,11 +9,14 @@ A tool for running all your recon tools in Docker without remembering Docker com
 
 ## Installation
 
-[Installing docker](https://docs.docker.com/get-docker/)
+Install Docker on your local system:
+* <https://docs.docker.com/get-docker/>
 
-Installing Docker SDK for Python:
+Install Docker SDK for Python:
 
 ```pip install -r requirements.txt```
+
+All keys should be added to config.conf
 
 ## Usage
 

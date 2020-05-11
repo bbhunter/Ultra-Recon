@@ -29,6 +29,29 @@ censys_secret = <censys_secret>
 
 ```python3 ultra_recon -n <name_of_target> -t <target> -i <docker_image_name>```
 
+## Available Options
+```
+--name            Name of target (this will become the output folder name)
+--target          Target the tool will run on
+--image           The name of the image that will run
+```
+
+## Example Usage
+```
+Ultra-Recon % python3 ultra_recon.py -n sample -t scanme.nmap.org -i nmap
+    __  ______                ____
+   / / / / / /__________ _   / __ \___  _________  ____
+  / / / / / __/ ___/ __ `/  / /_/ / _ \/ ___/ __ \/ __ \
+ / /_/ / / /_/ /  / /_/ /  / _, _/  __/ /__/ /_/ / / / /
+ \____/_/\__/_/   \__,_/  /_/ |_|\___/\___/\____/_/ /_/
+
+	 by sneakerhax...
+
+[+] Building image nmap
+[+] Starting container nmap
+[+] writing output to output/sample/nmap.txt
+```
+
 ## Current images
 
 * Nmap

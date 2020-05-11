@@ -18,7 +18,7 @@ Install Docker SDK for Python:
 
 ```pip3 install -r requirements.txt```
 
-Keys should be added to config.conf (Example for Censys)
+Keys should be added to config.conf (Example for Censys):
 ```
 [censys.io]
 censys_API_ID = <censys_API_ID>

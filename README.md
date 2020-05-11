@@ -16,7 +16,7 @@ Install Docker on your local system:
 
 Install Docker SDK for Python:
 
-```pip install -r requirements.txt```
+```pip3 install -r requirements.txt```
 
 Keys should be added to config.conf (Example for Censys)
 ```

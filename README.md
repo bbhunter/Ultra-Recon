@@ -38,7 +38,7 @@ censys_secret = <censys_secret>
 
 ## Example Usage
 ```
-Ultra-Recon % python3 ultra_recon.py -n sample -t scanme.nmap.org -i nmap
+$ Ultra-Recon % python3 ultra_recon.py -n sample -t scanme.nmap.org -i nmap
     __  ______                ____
    / / / / / /__________ _   / __ \___  _________  ____
   / / / / / __/ ___/ __ `/  / /_/ / _ \/ ___/ __ \/ __ \
